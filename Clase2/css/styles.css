@@ -14,13 +14,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: hsl(103, 48%, 80%);
+    background-color: hsl(168, 55%, 88%);
     font-size: 25px;
 }
 
 .profile{
     
-    background-color: hsl(0, 15%, 71%);
+    background-color: hsl(168, 55%, 65%);
     padding: 50px;
     border-radius: 20px;
 }
@@ -31,19 +31,24 @@ body{
     justify-content: center;
 }
 
+.img1{
+    
+    width: 300px;
+}
+
 .profile__avatar{
     
-    border-radius: 50px;
-    height: 100px;
-    width: 100px;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
     
     
 }
 
 .profile__name{
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 25px;
-    color: darkgreen;
+    color: black;
     text-align: center;
     
 }
@@ -59,6 +64,7 @@ section button:first-child{
 }
 
 button{
+    
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -68,3 +74,26 @@ button{
     display: flex;
     flex-direction: column;
 }
+
+.tres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.publicaciones{
+    text-align: center;
+    margin-top: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.post{
+    background-color: hsl(204, 70%, 81%);
+    margin: 20px;
+    padding: 20px;
+
+    border-radius: 30px;
+}
+
