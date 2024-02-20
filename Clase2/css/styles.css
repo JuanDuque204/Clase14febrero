@@ -23,6 +23,8 @@ body{
     background-color: hsl(168, 55%, 65%);
     padding: 50px;
     border-radius: 20px;
+    box-shadow: .5rem .5rem 1rem #242624,
+    -.5rem -.5rem 1rem #2f2e2e;
 }
 .uno{
     display: flex;
@@ -47,10 +49,15 @@ body{
 
 .profile__name{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
     color: black;
     text-align: center;
     
+}
+.profile__description{
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 section button >p{
@@ -59,15 +66,34 @@ section button >p{
 }
 
 section button:first-child{
-    background-color: blue;
+    background-color: beige;
     
 }
 
 button{
     
+    font-weight: bold;
+    color: #444;
+    border: 2px;
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: .5rem .5rem 1rem #242624,
+    -.5rem -.5rem 1rem #2f2e2e;
+    font-size: 30px;
     border-radius: 10px;
     margin-top: 5px;
     margin-bottom: 5px;
+    
+    
+}
+button:hover{
+    box-shadow: .5rem .5rem 1rem #242624,
+    -.5rem -.5rem 1rem #2f2e2e;
+}
+button:active{
+    box-shadow:inset .2rem .5rem 1rem #242624,
+   inset -.2rem -.5rem 1rem #2f2e2e;
+
 }
 
 .dos{
@@ -84,7 +110,7 @@ button{
 
 .publicaciones{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 40px;
     background-color: black;
     color: aliceblue;
 }
@@ -95,5 +121,8 @@ button{
     padding: 20px;
 
     border-radius: 30px;
+    width: 500px;
+    box-shadow: .5rem .5rem 1rem #242624,
+    -.5rem -.5rem 1rem #2f2e2e;
 }
 
